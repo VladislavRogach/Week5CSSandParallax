@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Nunito:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/protshake1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color: #829d7093;
+    border: 2px solid #829d70;
+    color: #443b3e;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    background-color: #98898e;
+    color: #443b3e;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url("../img/drinking-protein-shake.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #af6eb09a;
+    border: 2px solid #af6eb0;
+    color: #443b3e;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.quality-text {
+    background-color: #d8b3dd;
+    color: #443b3e;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url("../img/Cheap-shake-580-310.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: #21448096;
+    border:2px solid #214480;
+    color:#443b3e;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.origin-text {
+    background-color: #a3bdc6;
+    color: #443b3e;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 200px;
+    background-color: rgb(25, 31, 59);
+    color: rgb(57, 57, 226);
+    font-size: 2rem;
+    padding-top: 3.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1 rem;
+}
+
+.footer ul li a {
+    color: rgb(57, 57, 226);
+    text-decoration: none;
+    
+}
+
+.footer ul li a:hover {
+    color: rgb(118, 118, 233);
+}
